@@ -13,7 +13,7 @@ public class Player : MonoBehaviour
     
     // Ground Movement
     private Rigidbody rb;
-    public float movespeed = 5f;
+    public float movespeed = 20f;
     private float moveHorizontal;
     private float moveForward;
 
