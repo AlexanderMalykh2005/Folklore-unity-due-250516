@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 7608172657602351248}
   - component: {fileID: 5806546764014815248}
   - component: {fileID: 4384465178261112322}
+  - component: {fileID: 8353070178022896521}
   m_Layer: 0
   m_Name: tree_6_hp
   m_TagString: Untagged
@@ -83,6 +84,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &8353070178022896521
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3261568722293806347}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -4901885702685610431, guid: ffe3bb8038aebdc4abe9101dc1cae1c1, type: 3}
 --- !u!1 &6629698312864084904
 GameObject:
   m_ObjectHideFlags: 0
